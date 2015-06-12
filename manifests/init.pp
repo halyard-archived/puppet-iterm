@@ -19,7 +19,7 @@ class iterm (
     domain  => 'com.googlecode.iterm2',
     key     => 'LoadPrefsFromCustomFolder',
     value   => 1,
-    type    => 'integer'
+    type    => 'integer',
     require => Package['dropbox-halyard']
   } ->
   osx_defaults { 'Set iterm preference path':
