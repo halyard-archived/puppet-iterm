@@ -22,7 +22,7 @@ class iterm (
     type    => 'integer',
     require => Package['dropbox-halyard']
   } ->
-  osx_defaults { 'Set iterm preference path':
+  boxen::osx_defaults { 'Set iterm preference path':
     user   => $::boxen_user,
     domain => 'com.googlecode.iterm2',
     key    => 'PrefsCustomFolder',
