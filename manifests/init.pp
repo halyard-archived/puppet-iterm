@@ -14,7 +14,7 @@ class iterm (
     provider    => 'brewcask',
     require     => Homebrew::Tap['halyard/casks']
   } ->
-  osx_defaults { 'Enable iterm preference loading':
+  boxen::osx_defaults { 'Enable iterm preference loading':
     user    => $::boxen_user,
     domain  => 'com.googlecode.iterm2',
     key     => 'LoadPrefsFromCustomFolder',
