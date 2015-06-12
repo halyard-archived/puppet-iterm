@@ -27,5 +27,6 @@ class iterm (
     domain => 'com.googlecode.iterm2',
     key    => 'PrefsCustomFolder',
     value  => $prefs_path
+    type   => 'string'
   }
 }
