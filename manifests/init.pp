@@ -1,11 +1,11 @@
 # == Class: iterm
 #
-# Full description of class iterm here.
+# Install and configure iterm
 #
 # === Parameters
 #
-# [*sample_parameter*]
-#   Explanation of what this parameter affects and what it defaults to.
+# [*prefs_path*]
+#   Path to use as the autoload path for iTerm preferences
 #
 class iterm (
   $prefs_path = "/Users/${::boxen_user}/Dropbox/iterm"
