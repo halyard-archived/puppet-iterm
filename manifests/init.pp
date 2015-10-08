@@ -11,8 +11,8 @@ class iterm (
   $prefs_path = "/Users/${::boxen_user}/Dropbox/iterm"
 ) {
   package { 'iterm2-nightly-halyard':
-    provider    => 'brewcask',
-    require     => Homebrew::Tap['halyard/casks']
+    provider => 'brewcask',
+    require  => Homebrew::Tap['halyard/casks']
   } ->
   boxen::osx_defaults { 'Enable iterm preference loading':
     user    => $::boxen_user,

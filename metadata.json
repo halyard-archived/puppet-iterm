@@ -1,0 +1,22 @@
+{
+  "name": "halyard-iterm",
+  "version": "2.8.6",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure iterm via Boxen",
+  "source": "https://github.com/halyard/puppet-iterm",
+  "project_page": "https://github.com/halyard/puppet-iterm",
+  "issues_url": "https://github.com/halyard/puppet-iterm/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
