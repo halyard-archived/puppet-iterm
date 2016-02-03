@@ -20,7 +20,6 @@ class iterm (
     key     => 'LoadPrefsFromCustomFolder',
     value   => 1,
     type    => 'integer',
-    require => Package['dropbox-halyard']
   } ->
   boxen::osx_defaults { 'Set iterm preference path':
     user   => $::boxen_user,
